@@ -1,0 +1,6 @@
+{
+    "watch": ["src/**/*.js"],
+    "exec": "powershell -Command \"Get-ChildItem src/*.js | Sort-Object LastWriteTime -Descending | Select-Object -First 1 | ForEach-Object { npx terser $_.FullName -o ($_.FullName -replace 'src', 'dist') --compress --mangle }\"",
+    "quiet": true,
+    "verbose": false
+}

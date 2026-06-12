@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="375" height="834.56" viewBox="0 0 375 834.56">
+  <g id="_設計" data-name="設計">
+    <g>
+      <path d="M25,0h325C363.8,0,375,11.2,375,25v809.56H0V25C0,11.2,11.2,0,25,0Z" style="fill: #d6a18e;"/>
+      <path d="M375,111.34v679.61H0V109.57c52.73-37.44,117.68-59.71,186.9-59.48,69.73.23,135.1,23.22,188.1,61.25Z" style="fill: #ededed; opacity: .1;"/>
+    </g>
+  </g>
+</svg>

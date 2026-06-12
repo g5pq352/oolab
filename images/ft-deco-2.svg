@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="192.27" height="115.3" viewBox="0 0 192.27 115.3">
+  <g id="_設計" data-name="設計">
+    <g>
+      <path d="M191.05,113.86H19.35c-10.25,0-18.55-11.09-18.55-24.77V25.56C.79,11.88,9.1.79,19.35.79h146.76c10.25,0,18.55,11.09,18.55,24.77v57.38c0,10.88,2.2,21.57,6.38,30.92h0Z" style="fill: #4b4c4e; stroke: #fff; stroke-miterlimit: 10; stroke-width: 1.59px;"/>
+      <g>
+        <ellipse cx="90.11" cy="59.33" rx="70.84" ry="22.84" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.89px;"/>
+        <path d="M160.38,70.26c-4.42,11.24-34.2,19.93-70.27,19.93s-67.49-9.18-70.58-20.87" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.89px;"/>
+        <path d="M20.63,62.89c6.44-10.47,35.1-18.37,69.48-18.37s63.14,7.92,69.52,18.43" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.89px;"/>
+        <path d="M23,66.66c9.47-9.02,35.94-15.5,67.11-15.5s56.61,6.24,66.54,14.99" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.89px;"/>
+        <path d="M54.68,79.1c10.42-1.94,22.52-3.06,35.43-3.06s24,1.02,34.13,2.82" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.89px;"/>
+        <line x1="160.94" y1="57.24" x2="159.24" y2="112.82" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.89px;"/>
+        <line x1="19.27" y1="57.24" x2="21.05" y2="113.86" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.89px;"/>
+      </g>
+    </g>
+  </g>
+</svg>

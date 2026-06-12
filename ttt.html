@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG ClipPath + Stroke</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #eee;
+    }
+
+    .svg-container {
+      max-width: 1750px;
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    image {
+      clip-path: url(#custom-mask);
+    }
+  </style>
+</head>
+<body>
+
+
+  <svg width="1762" height="782" viewBox="0 0 1753.64 781.43" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- 定義遮罩形狀 -->
+    <defs>
+      <clipPath id="custom-mask">
+        <path d="M1751.88,780.43H166.5c-91.4,0-165.5-74.1-165.5-165.5V166.5C1,75.1,75.1,1,166.5,1h1361.17c91.4,0,165.5,74.1,165.5,165.5v402.26c0,74.09,20.03,146.8,57.98,210.43l.74,1.24Z"/>
+      </clipPath>
+    </defs>
+
+    <!-- 外框線條 -->
+    <path d="M1751.88,780.43H166.5c-91.4,0-165.5-74.1-165.5-165.5V166.5C1,75.1,75.1,1,166.5,1h1361.17c91.4,0,165.5,74.1,165.5,165.5v402.26c0,74.09,20.03,146.8,57.98,210.43l.74,1.24Z"
+          style="fill: none; stroke: #d6a18e; stroke-width: 3px;"/>
+
+    <!-- 裁切後的圖片 -->
+    <image
+      href="test/fs-pic-1.jpg"
+      width="1750.8842"
+      height="779.4254"
+      preserveAspectRatio="xMidYMid slice"
+      clip-path="url(#custom-mask)"
+    />
+  </svg>
+
+</body>
+</html>

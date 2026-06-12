@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="210.77" height="125.65" viewBox="0 0 210.77 125.65">
+  <g id="_設計" data-name="設計">
+    <g>
+      <path d="M1.22,124.85h20.68s167.71,0,167.71,0c11.24,0,20.36-12.17,20.36-27.18V27.97c0-15.01-9.11-27.18-20.36-27.18H28.58c-11.24,0-20.36,12.17-20.36,27.18v62.96c0,11.94-2.42,23.66-7,33.92h0Z" style="fill: #4b4c4e; stroke: #fff; stroke-miterlimit: 10; stroke-width: 1.59px;"/>
+      <g>
+        <rect x="60.74" y="27.8" width="92.71" height="25.58" rx="12.79" ry="12.79" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3.17px;"/>
+        <path d="M142.78,82.31c1.32,1.32,2.15,3.14,2.15,5.15h0c0,4-3.28,7.28-7.28,7.28h-61.1c-4,0-7.28-3.28-7.28-7.28h0c0-2.15.94-4.09,2.44-5.42" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3.17px;"/>
+        <rect x="71.04" y="27.8" width="72.11" height="12.79" rx="6.39" ry="6.39" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3.17px;"/>
+        <path d="M143.15,80.18c0,3.52-2.88,6.39-6.39,6.39h-59.32c-3.52,0-6.39-2.88-6.39-6.39" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3.17px;"/>
+        <polyline points="71.04 80.63 71.04 53.37 143.15 53.37 143.15 80.63" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3.17px;"/>
+      </g>
+    </g>
+  </g>
+</svg>
