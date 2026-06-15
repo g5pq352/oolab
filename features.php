@@ -248,6 +248,7 @@
 	</div>
 
 	<div class="relative overflow-hidden bg-[#C7B79F] vw-pt-[226] vw-pb-[316] md:pt-[50px] md:pb-[82px]">
+		<div class="absolute w-full top-[236px] left-0 hidden sm:!block"><img src="https://gdlinode.tw/oolab/images/fea-bg-mobile-deco.png"></div>
 		<div class="relative z-10">
 			<div class="mb-[80px] md:mb-[36px]">
 				<img src="https://gdlinode.tw/oolab/images/fea-ex-head.svg" class="mx-auto vw-max-w-[554] md:hidden">
@@ -270,7 +271,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="absolute vw-bottom-[86] -right-[146px] md:bottom-0 md:right-0">
+		<div class="absolute vw-bottom-[86] -right-[146px] md:bottom-0 md:right-0 md:hidden">
 			<img src="https://gdlinode.tw/oolab/images/fea-ex-deco.svg" class="vw-max-w-[1884] md:hidden">
 			<img src="https://gdlinode.tw/oolab/images/fea-ex-deco-mobile.svg" class="hidden md:!block w-full">
 		</div>
@@ -464,7 +465,6 @@
 			<div class="vw-mb-[92]">
 				<img src="https://gdlinode.tw/oolab/images/fea-head-1.svg" class="mx-auto vw-max-w-[444] md:hidden">
 				<img src="https://gdlinode.tw/oolab/images/fea-head-1-mobile.svg" class="mx-auto hidden md:!block">
-				<img src="https://gdlinode.tw/oolab/images/fea-bg-2-mobile.svg" class="absolute tf max-w-none hidden md:!block">
 			</div>
 
 			<div class="relative inline-block">
@@ -512,7 +512,7 @@
 						<svg width="65.12" height="150.08" viewBox="0 0 65.12 150.08" class="steel-line-3 hidden md:!block">
 							<path d="M.38 .38 L64.75 .38 L64.75 149.71" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: .75px;"/>
 						</svg>
-						<div class="absolute vw-top-[175] -vw-right-[180] opacity-0 steel-item-3 lg:top-[56px] lg:-right-[86px] md:top-[126px] md:right-[28px]">
+						<div class="absolute vw-top-[140] -vw-right-[180] opacity-0 steel-item-3 lg:top-[56px] lg:-right-[86px] md:top-[126px] md:right-[28px]">
 							<div class="md:hidden"><img src="https://gdlinode.tw/oolab/images/ft-icon-3-3.svg" class="vw-max-w-[208]"></div>
 							<div class="absolute vw-top-[154] left-0 lg:vw-top-[192] lg:-vw-left-[20]"><img src="https://gdlinode.tw/oolab/images/ft-text-3-3.svg" class="vw-max-w-[210] md:hidden"><img src="https://gdlinode.tw/oolab/images/ft-text-3-3-mobile.svg" class="max-w-none hidden md:!block"></div>
 						</div>
@@ -849,6 +849,7 @@
 	</div>
 
 	<div class="relative overflow-hidden bg-[#EFEBDF] vw-pt-[226] vw-pb-[316] md:pt-[50px] md:pb-[82px]">
+		<div class="absolute w-full top-[236px] left-0 hidden sm:!block"><img src="https://gdlinode.tw/oolab/images/fea-bg-mobile-deco.png"></div>
 		<div class="relative z-10">
 			<div class="mb-[80px] md:mb-[36px]">
 				<img src="https://gdlinode.tw/oolab/images/fea-ex-head-2.svg" class="mx-auto vw-max-w-[554] md:hidden">
@@ -871,7 +872,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="absolute vw-bottom-[86] -right-[146px] md:bottom-0 md:right-0">
+		<div class="absolute vw-bottom-[86] -right-[146px] md:bottom-0 md:right-0 md:hidden">
 			<img src="https://gdlinode.tw/oolab/images/fea-ex-deco.svg" class="vw-max-w-[1884] md:hidden">
 			<img src="https://gdlinode.tw/oolab/images/fea-ex-deco-mobile.svg" class="hidden md:!block w-full">
 		</div>

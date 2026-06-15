@@ -471,6 +471,7 @@ body.is-gray-300 {
   margin: 0 auto;
 }
 .productsWrap.featuresWrap {
+  position: relative;
   padding-top: calc(254 / 19.2 * 1vw);
   padding-bottom: calc(178 / 19.2 * 1vw);
   background: #C7B79F;
@@ -479,6 +480,28 @@ body.is-gray-300 {
   .productsWrap.featuresWrap {
     padding: calc(254 / 19.2 * 1vw) calc(80 / 19.2 * 1vw) calc(178 / 19.2 * 1vw);
   }
+}
+.productsWrap.featuresWrap::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("https://gdlinode.tw/oolab/images/fea-slider-bg-deco-mobile.svg") no-repeat center center/cover;
+  pointer-events: none;
+  z-index: 0;
+  width: 342px;
+  height: 560px;
+  opacity: 0;
+}
+@screen md {
+  .productsWrap.featuresWrap::before {
+    opacity: 1;
+  }
+}
+.productsWrap.featuresWrap .section-width {
+  position: relative;
+  z-index: 1;
 }
 .productsWrap.featuresWrap.pp-straw-tumbler {
   background: #E0C2B8;
