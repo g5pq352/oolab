@@ -372,11 +372,22 @@ body:not(.promotions) .product-item:hover product-item:not(.only-wishlist-button
 }
 .cup-pon{
 	transition: all .3s;
+	@screen md{
+		transition: none;
+	}
+	&.two{
+		@screen md{
+			&.is-pon{
+				transform: rotate(0deg) translate(0px, 0px);
+			}
+		}
+	}
 	&.is-pon{
 		transition-delay: 1s;
 		transform: rotate(-6deg) translate(-3px, 0px);
 		@screen md{
-			transform: rotate(0deg) translate(0px, 0px);
+			transition-delay: 0s;
+			transform: rotate(10deg) translate(0px, 0px);
 		}
 	}
 }
@@ -649,7 +660,7 @@ body:not(.promotions) .product-item:hover product-item:not(.only-wishlist-button
 					border-radius: 50px;
 				}
 				@screen md{
-					border-radius: 40px;
+					border-radius: 22px;
 				}
 				&:after{
 					content: none;
@@ -658,7 +669,7 @@ body:not(.promotions) .product-item:hover product-item:not(.only-wishlist-button
 	        .category__item-title{
 	        	color: #FFFFFF;
 	        	font-weight: 700;
-	        	font-size: 22px;
+	        	font-size: font(28);
 	        	text-align: center;
 	        	letter-spacing: 3px;
 	        	margin-bottom: 10px;
@@ -666,13 +677,13 @@ body:not(.promotions) .product-item:hover product-item:not(.only-wishlist-button
 				@screen md{
 					font-size: 20px;
 					line-height: 1.5;
-					margin-top: 10px;
+					margin-top: 40px;
 					margin-bottom: 0;
 					padding-bottom: 4px;
 				}
 	        }
 			.category__item-title-en{
-				font-size: 17px;
+				font-size: font(17);
 				color: #ffffff;
 				letter-spacing: 1px;
 				margin-bottom: 50px;
@@ -697,12 +708,18 @@ body:not(.promotions) .product-item:hover product-item:not(.only-wishlist-button
         }
 	}
 }
+.category__1749613794113b6b1169__container{
+	position: relative;
+}
 #drink-dots-mobile{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	position: absolute;
+    bottom: 92px;
 	li{
-		margin: 0 4px;
+		margin: 0 6px;
 		position: relative;
 		width: 12px;
 		height: 12px;
@@ -892,7 +909,7 @@ body:not(.promotions) .product-item:hover product-item:not(.only-wishlist-button
 }
 .about-item{
 	img{
-		border-radius: vw(120) 0 0 vw(120);
+		border-radius: vw(80) 0 0 vw(80);
 		border-bottom: 3px solid #1d7068;
 		border-top: 3px solid #1d7068;
 		border-left: 3px solid #1d7068;
@@ -1124,7 +1141,7 @@ body:not(.promotions) .product-item:hover product-item:not(.only-wishlist-button
 	    	}
 	    	#category-intro{
 	    		p{
-	    			line-height: 1.6;
+	    			line-height: 1.8;
 	    		}
 	    	}
 	    }

@@ -117,14 +117,16 @@ if(location.href == 'https://oolabtwtest.shoplineapp.com/') {
 		'</div>' +
 	'</div>' +
 	'<div class="absolute z-10 -left-[2vw] bottom-[16vh] ani-head md:hidden"><img src="https://gdlinode.tw/oolab/images/slider-deco-1.svg" class="vw-max-w-[480]"></div>' +
-	'<div class="absolute z-10 -right-[2.5vw] bottom-[19vh] pointer-events-none pop-items md:right-4 md:bottom-auto md:top-[90px]">' +
+	'<div class="absolute z-10 -right-[2.5vw] bottom-[19vh] pointer-events-none pop-items md:right-4 md:bottom-auto md:top-[90px] md:hidden">' +
 		'<div class="mb-6"><img src="https://gdlinode.tw/oolab/images/slider-deco-2.svg" class="vw-max-w-[260] ml-auto md:max-w-[116px]"></div>' +
 		'<div class=""><img src="https://gdlinode.tw/oolab/images/slider-deco-3.svg" class="vw-max-w-[280] ml-auto md:max-w-[128px]"></div>' +
 	'</div>' +
-	'<div class="absolute tf-x z-10 bottom-0 pointer-events-none md:bottom-[52px]">' +
-		'<div class="lottie-item w-[54vw] md:max-w-[130px]" id="lottie"></div>' +
+	'<div class="absolute tf-x z-10 bottom-0 pointer-events-none md:bottom-[52px] md:min-w-[80%] md:text-center">' +
+		'<div class="lottie-item w-[54vw] md:max-w-[130px] md:mx-auto" id="lottie"></div>' +
 		'<div class="font-bold text-white tracking-wide hidden mt-3 text-[18px] md:!block">一起共好生活</div>' +
+		'<div class="font-medium text-white tracking-normal hidden mt-[26px] text-[14px] md:!block">每一樣物件，都是一場你與生活的對話。</div>' +
 	'</div>' +
+	'<div class="absolute tf w-full h-full px-1 hidden -z-[1] md:!block"><img src="https://gdlinode.tw/oolab/images/index-banner-bg-mobile.svg"></div>' +
 	'<div class="absolute tf-x z-10 -bottom-[4vh] opacity-0 trasition-all duration-500 scroll-item pointer-events-none md:hidden">' +
 		'<div class="font-bold text-lg text-white tracking-wide">往下滑動你的日常好陪伴</div>' +
 		'<div class="index-scroll">' +
@@ -374,20 +376,20 @@ if(location.href == 'https://oolabtwtest.shoplineapp.com/') {
 	var _item_all =
 	'<div class="relative text-center pointer-events-none">' +
 		'<div class="all-product relative inline-block md:!block md:px-8">' +
-			'<div class=""><img src="https://gdlinode.tw/oolab/images/all-product.svg" class="md:hidden"><img src="https://gdlinode.tw/oolab/images/all-product-mobile.svg" class="hidden md:!block w-full"></div>' +
-			'<div class="absolute tf-x bottom-12 arrow pointer-events-auto md:bottom-4"><a href="/pages/all-products"><svg width="59.86" height="59.91" viewBox="0 0 59.86 59.91" class="md:max-w-[40px]">' +
+			'<div class=""><img src="https://gdlinode.tw/oolab/images/all-product.svg" class="md:hidden"><img src="https://gdlinode.tw/oolab/images/all-product-mobile.svg" class="hidden md:!block mx-auto"></div>' +
+			'<div class="absolute tf-x bottom-12 arrow pointer-events-auto md:bottom-[16px]"><a href="/pages/all-products"><svg width="59.86" height="59.91" viewBox="0 0 59.86 59.91" class="md:max-w-[28px] h-auto">' +
 				'<path d="M59.39,24.14c-.15-1.11-.34-2.2-.59-3.29-2.27-9.75-8.13-16.37-17.82-19.25-7.01-2.09-14.15-2.1-21.21-.24C10.85,3.73,4.77,9.35,1.9,18.15c-2.48,7.59-2.51,15.33-.2,22.97,2.67,8.85,8.54,14.67,17.43,17.24,7.18,2.08,14.44,2.06,21.63.03,7.69-2.17,13.26-6.92,16.45-14.31,1.31-3.03,2.06-6.17,2.4-9.39,0-.07.01-.14.02-.21.15-1.49.21-2.99.2-4.51.01,0,.03,0,.04,0-.06-2.5-.34-4.84-.47-5.82Z" style="fill: #1d7068;"/>' +
 				'<polyline points="25.83 39.15 35.6 29.27 24.26 20.76" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 3px;"/>' +
 			'</svg></a></div>' +
-			'<div class="absolute right-3 -bottom-10 flex items-center justify-center md:right-[48px] md:-bottom-[36px]" data-trigger-fn="cupPon">' +
-				'<img src="https://gdlinode.tw/oolab/images/allp-deco-1.png" class="md:max-w-[42px]">' +
-				'<img src="https://gdlinode.tw/oolab/images/allp-deco-2.png" class="cup-pon -ml-2 md:-ml-1 md:max-w-[42px]">' +
+			'<div class="absolute right-3 -bottom-10 flex items-center justify-center md:right-[72px] md:-bottom-[26px]" data-trigger-fn="cupPon">' +
+				'<img src="https://gdlinode.tw/oolab/images/allp-deco-1.png" class="md:max-w-[32px]">' +
+				'<img src="https://gdlinode.tw/oolab/images/allp-deco-2.png" class="cup-pon two -ml-2 md:-ml-1 md:max-w-[32px]">' +
 			'</div>' +
 		'</div>' +
 	'</div>';
 	$("#Content .CustomPage .productCats").append(_item_all);
 
-	var _item_bg ='<div class="absolute tf pointer-events-none"><img src="https://gdlinode.tw/oolab/images/all-product-bg.svg"></div>';
+	var _item_bg ='<div class="absolute tf pointer-events-none md:w-full md:px-[16px] md:pb-[132px]"><img src="https://gdlinode.tw/oolab/images/all-product-bg.svg" class="md:hidden"><img src="https://gdlinode.tw/oolab/images/all-product-bg-mobile.svg" class="hidden md:!block"></div>';
 	$("#Content .CustomPage .productCats").append(_item_bg);
 
 
@@ -546,7 +548,7 @@ if(location.href == 'https://oolabtwtest.shoplineapp.com/pages/about') {
 				'<path id="aboutPath-path-1" d="M1,383.53V81c0-44.18,35.82-80,80-80h362.54" style="fill: none; stroke: none; stroke-miterlimit: 10;" />' +
 				'<path id="aboutPath-path-1-mobile" d="M.6,185.6V22.6c0-12.15,9.85-22,22-22h251.35" style="fill: none; stroke: none; stroke-miterlimit: 10;"/>' +
 
-				'<text class="fill-[#1d7068] font-bold vw-text-[17px] tracking-normal lg:text-[12px]" style="transform: translate(36px, 38px);">' +
+				'<text class="fill-white font-bold vw-text-[17px] tracking-normal lg:text-[12px]" style="transform: translate(36px, 38px);">' +
 					'<textPath class="about-item-text-1 lg:hidden" href="#aboutPath-path-1">EMPATHY‧EMOTIONAL CONNECTION‧COLLECTIVE GOODNESS</textPath>' +
 					'<textPath class="about-item-text-1 hidden lg:!block" href="#aboutPath-path-1-mobile">EMPATHY‧EMOTIONAL CONNECTION‧COLLECTIVE GOODNESS</textPath>' +
 				'</text>' +
@@ -920,13 +922,13 @@ if(location.href == 'https://oolabtwtest.shoplineapp.com/pages/all-products') {
 			'</svg>' +
 			'<div class="head-area absolute top-0 left-0 z-10 md:w-full md:text-center">' +
 				'<div class="relative inline-block bg-white border-3 border-green-300 rounded-[32px] vw-py-8 vw-px-[42px] lg:rounded-[24px] md:bg-transparent md:border-0 md:p-0">' +
-					'<h3 class="font-bold vw-text-[45px] text-green-300 tracking-wide leading-none lg:text-[28px] md:text-white md:text-[40px]" id="category-head">' + titleText + '</h3>' +
-					'<div class="triangle absolute left-[5vw] -bottom-[24px] md:hidden"><svg width="64.1" height="28.76" viewBox="0 0 64.1 28.76">' +
+					'<h3 class="font-bold vw-text-[64px] text-green-300 tracking-wide leading-none lg:text-[28px] md:text-white md:text-[40px]" id="category-head">' + titleText + '</h3>' +
+					'<div class="triangle absolute left-[3vw] -bottom-[24px] md:hidden"><svg width="64.1" height="28.76" viewBox="0 0 64.1 28.76">' +
 						'<path d="M2.49,4.74h2.35s53.16,22.65,53.16,22.65c2.91,1.24,5.89-1.6,4.79-4.57l-6.7-18.08h3.67" style="fill: #fff; stroke: #004d47; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.14px;"/>' +
 						'<rect width="62.2" height="5.08" style="fill: #fff;"/>' +
 					'</svg></div>' +
 				'</div>' +
-				'<div class="text-white leading-normal tracking-normal font-bold vw-text-[36px] mt-12 ml-[7vw] lg:text-[15px] lg:ml-0 lg:mt-4" id="category-intro">' +
+				'<div class="text-white leading-normal tracking-wide font-bold vw-text-[31px] mt-[40px] ml-[3.5vw] lg:text-[15px] lg:ml-0 lg:mt-4" id="category-intro">' +
 					'<div class="md:hidden">' + contentHtml + '</div>' +
 					'<div class="hidden md:!block">' + aboutText + '</div>' +
 				'</div>' +

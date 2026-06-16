@@ -436,13 +436,24 @@ body.is-gray-300 {
 .cup-pon {
   transition: all 0.3s;
 }
+@screen md {
+  .cup-pon {
+    transition: none;
+  }
+}
+@screen md {
+  .cup-pon.two.is-pon {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+}
 .cup-pon.is-pon {
   transition-delay: 1s;
   transform: rotate(-6deg) translate(-3px, 0px);
 }
 @screen md {
   .cup-pon.is-pon {
-    transform: rotate(0deg) translate(0px, 0px);
+    transition-delay: 0s;
+    transform: rotate(10deg) translate(0px, 0px);
   }
 }
 
@@ -733,7 +744,7 @@ body.is-gray-300 {
 }
 @screen md {
   .productCats .category__item-container .category__item .category__image-container {
-    border-radius: 40px;
+    border-radius: 22px;
   }
 }
 .productCats .category__item-container .category__item .category__image-container:after {
@@ -742,7 +753,7 @@ body.is-gray-300 {
 .productCats .category__item-container .category__item .category__item-title {
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 22px;
+  font-size: clamp(22.4px, 28 / 19.2 * 1vw, 28px);
   text-align: center;
   letter-spacing: 3px;
   margin-bottom: 10px;
@@ -752,13 +763,13 @@ body.is-gray-300 {
   .productCats .category__item-container .category__item .category__item-title {
     font-size: 20px;
     line-height: 1.5;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 0;
     padding-bottom: 4px;
   }
 }
 .productCats .category__item-container .category__item .category__item-title-en {
-  font-size: 17px;
+  font-size: clamp(13.6px, 17 / 19.2 * 1vw, 17px);
   color: #ffffff;
   letter-spacing: 1px;
   margin-bottom: 50px;
@@ -779,13 +790,20 @@ body.is-gray-300 {
   filter: none;
 }
 
+.category__1749613794113b6b1169__container {
+  position: relative;
+}
+
 #drink-dots-mobile {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 92px;
 }
 #drink-dots-mobile li {
-  margin: 0 4px;
+  margin: 0 6px;
   position: relative;
   width: 12px;
   height: 12px;
@@ -982,7 +1000,7 @@ body.is-gray-300 {
 }
 
 .about-item img {
-  border-radius: calc(120 / 19.2 * 1vw) 0 0 calc(120 / 19.2 * 1vw);
+  border-radius: calc(80 / 19.2 * 1vw) 0 0 calc(80 / 19.2 * 1vw);
   border-bottom: 3px solid #1d7068;
   border-top: 3px solid #1d7068;
   border-left: 3px solid #1d7068;
@@ -1242,7 +1260,7 @@ body.is-gray-300 {
   }
 }
 .category-banner .Grid-row .head-area #category-intro p {
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 @screen md {

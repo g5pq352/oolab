@@ -28,15 +28,18 @@
 				</div>
 			</div>
 			<div class="absolute z-10 -left-[2vw] bottom-[16vh] ani-head md:hidden"><img src="images/slider-deco-1.svg" class="vw-max-w-[480]"></div>
-			<div class="absolute z-10 -right-[2.5vw] bottom-[19vh] pointer-events-none pop-items md:right-4 md:bottom-auto md:top-[90px]">
+			<div class="absolute z-10 -right-[2.5vw] bottom-[19vh] pointer-events-none pop-items md:right-4 md:bottom-auto md:top-[90px] md:hidden">
 				<div class="mb-6"><img src="images/slider-deco-2.svg" class="vw-max-w-[260] ml-auto md:max-w-[116px]"></div>
 				<div class=""><img src="images/slider-deco-3.svg" class="vw-max-w-[280] ml-auto md:max-w-[128px]"></div>
 			</div>
 
-			<div class="absolute tf-x z-10 bottom-0 pointer-events-none md:bottom-[52px]">
-				<div class="lottie-item w-[54vw] md:max-w-[130px]" id="lottie"></div>
+			<div class="absolute tf-x z-10 bottom-0 pointer-events-none md:bottom-[52px] md:min-w-[80%] md:text-center">
+				<div class="lottie-item w-[54vw] md:max-w-[130px] md:mx-auto" id="lottie"></div>
 				<div class="font-bold text-white tracking-wide text-center mt-3 text-[18px] hidden md:!block">一起共好生活</div>
+				<div class="font-medium text-white tracking-normal hidden mt-[26px] text-[14px] md:!block">每一樣物件，都是一場你與生活的對話。</div>
 			</div>
+
+			<div class="absolute tf w-full h-full px-1 hidden -z-[1] md:!block"><img src="https://gdlinode.tw/oolab/images/index-banner-bg-mobile.svg"></div>
 
 			<div class="absolute tf-x z-10 -bottom-[4vh] opacity-0 trasition-all duration-500 scroll-item pointer-events-none md:bottom-5 md:hidden">
 				<div class="font-bold text-lg text-white tracking-wide md:text-[14px]">往下滑動你的日常好陪伴</div>
@@ -47,9 +50,9 @@
 		<div class="absolute tf w-[110%] -z-10"><img src="https://gdlinode.tw/oolab/images/index-slider-bg.svg" class="mx-auto"></div>
 	</div>
 
-	<div class="relative bg-[#EDEDED] vw-pt-[200px] vw-pb-[238px]">
+	<div class="relative bg-[#EDEDED] vw-pt-[200px] vw-pb-[238px] md:pt-[62px]">
 		<div class="ids2Wrap vw-max-w-[1560] mx-auto md:max-w-full">
-			<div class="head relative vw-mb-[142px] md:ml-5 md:mb-24">
+			<div class="head relative vw-mb-[142px] md:ml-0 md:mb-[40px]">
 				<img src="https://gdlinode.tw/oolab/images/ids-2-head.svg" class="vw-max-w-[300] mx-auto lg:max-w-[260px] md:max-w-[148px]">
 			</div>
 			<div class="index-setion-2 flex items-center justify-center md:flex-col">
@@ -76,7 +79,7 @@
 					</div>
 				</div>
 				<div class="right-area md:text-center md:px-[40px]">
-					<div class="head font-bold vw-text-[42px] text-green-300 vw-mb-[62] md:text-[23px]">「 珍惜，無所不在 」</div>
+					<div class="head font-bold vw-text-[42px] text-green-300 vw-mb-[62] -vw-ml-[25px] md:text-[23px] md:ml-0">「 珍惜，無所不在 」</div>
 					<div class="text-area font-medium vw-text-xl text-[#4B4C4E] space-y-12 md:text-[14px]">
 						<p class="leading-[2.5] tracking-normal md:leading-[2]">
 							每一款由 Oolab 製造的物件，<br>
@@ -109,11 +112,14 @@
 				</div>
 			</div>
 
-			<div class="absolute top-[22vh] vw-right-[180] md:top-[114px] md:right-10" data-trigger-fn="cupPon">
-				<div class=""><img src="https://gdlinode.tw/oolab/images/is2-circle.svg" class="animate-spin-slow vw-max-w-[174] md:max-w-[88px]"></div>
-				<div class="absolute tf w-full flex items-center justify-center -mt-2 ml-1">
-					<img src="https://gdlinode.tw/oolab/images/is2-deco-1.png" class="vw-max-w-[42] md:max-w-[26px]">
-					<img src="https://gdlinode.tw/oolab/images/is2-deco-2.png" class="cup-pon vw-max-w-[42] md:max-w-[26px]">
+			<div class="absolute top-[22vh] vw-right-[180] md:top-[124px] md:right-10" data-trigger-fn="cupPon">
+				<div class="">
+					<img src="https://gdlinode.tw/oolab/images/is2-circle.svg" class="animate-spin-slow vw-max-w-[174] md:max-w-[88px] md:hidden">
+					<img src="https://gdlinode.tw/oolab/images/is2-circle-mobile.svg" class="animate-spin-slow hidden md:!block">
+				</div>
+				<div class="absolute tf w-full flex items-center justify-center -mt-2 ml-1 md:ml-0">
+					<img src="https://gdlinode.tw/oolab/images/is2-deco-1.png" class="vw-max-w-[42] md:max-w-[22px] md:-rotate-[10deg]">
+					<img src="https://gdlinode.tw/oolab/images/is2-deco-2.png" class="cup-pon vw-max-w-[42] md:max-w-[22px] md:rotate-[10deg]">
 				</div>
 			</div>
 		</div>
@@ -126,19 +132,19 @@
 
 		<div class="relative text-center pointer-events-none">
 			<div class="all-product relative inline-block md:!block md:px-8">
-				<div class=""><img src="https://gdlinode.tw/oolab/images/all-product.svg" class="md:hidden"><img src="https://gdlinode.tw/oolab/images/all-product-mobile.svg" class="hidden md:!block w-full"></div>
-				<div class="absolute tf-x bottom-12 arrow pointer-events-auto md:bottom-4"><a href="javascript:;"><svg width="59.86" height="59.91" viewBox="0 0 59.86 59.91" class="md:max-w-[40px]">
+				<div class=""><img src="https://gdlinode.tw/oolab/images/all-product.svg" class="md:hidden"><img src="https://gdlinode.tw/oolab/images/all-product-mobile.svg" class="hidden md:!block mx-auto"></div>
+				<div class="absolute tf-x bottom-12 arrow pointer-events-auto md:bottom-[16px]"><a href="javascript:;"><svg width="59.86" height="59.91" viewBox="0 0 59.86 59.91" class="md:max-w-[28px] h-auto">
 					<path d="M59.39,24.14c-.15-1.11-.34-2.2-.59-3.29-2.27-9.75-8.13-16.37-17.82-19.25-7.01-2.09-14.15-2.1-21.21-.24C10.85,3.73,4.77,9.35,1.9,18.15c-2.48,7.59-2.51,15.33-.2,22.97,2.67,8.85,8.54,14.67,17.43,17.24,7.18,2.08,14.44,2.06,21.63.03,7.69-2.17,13.26-6.92,16.45-14.31,1.31-3.03,2.06-6.17,2.4-9.39,0-.07.01-.14.02-.21.15-1.49.21-2.99.2-4.51.01,0,.03,0,.04,0-.06-2.5-.34-4.84-.47-5.82Z" style="fill: #1d7068;" />
 					<polyline points="25.83 39.15 35.6 29.27 24.26 20.76" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 3px;" />
 				</svg></a></div>
-				<div class="absolute right-3 -bottom-10 flex items-center justify-center md:right-[48px] md:-bottom-[36px]" data-trigger-fn="cupPon">
-					<img src="images/allp-deco-1.png" class="md:max-w-[42px]">
-					<img src="images/allp-deco-2.png" class="cup-pon -ml-2 md:-ml-1 md:max-w-[42px]">
+				<div class="absolute right-3 -bottom-10 flex items-center justify-center md:right-[72px] md:-bottom-[26px]" data-trigger-fn="cupPon">
+					<img src="images/allp-deco-1.png" class="md:max-w-[32px]">
+					<img src="images/allp-deco-2.png" class="cup-pon -ml-2 md:-ml-1 md:max-w-[32px]">
 				</div>
 			</div>
 		</div>
 
-		<div class="absolute tf pointer-events-none"><img src="images/all-product-bg.svg"></div>
+		<div class="absolute tf pointer-events-none md:w-full md:px-[16px] md:pb-[132px]"><img src="https://gdlinode.tw/oolab/images/all-product-bg.svg" class="md:hidden"><img src="https://gdlinode.tw/oolab/images/all-product-bg-mobile.svg" class="hidden md:!block mx-auto"></div>
 	</div>
 
 	<div class="h-screen relative overflow-hidden md:bg-[#EDEDED] md:pt-[95px] md:pb-[100px] md:h-auto">

@@ -27,12 +27,12 @@
 						<div class="head-area absolute top-0 left-0 z-10 md:w-full md:text-center">
 							<div class="relative inline-block bg-white border-3 border-green-300 rounded-[32px] vw-py-8 vw-px-[42px] lg:rounded-[24px] md:bg-transparent md:border-0 md:p-0">
 								<h3 class="font-bold vw-text-[45px] text-green-300 tracking-wide leading-none lg:text-[28px] md:text-white md:text-[40px]" id="category-head">不銹鋼吸管杯系列...</h3>
-								<div class="triangle absolute left-[3.5vw] -bottom-[24px] md:hidden"><svg width="64.1" height="28.76" viewBox="0 0 64.1 28.76">
+								<div class="triangle absolute left-[3vw] -bottom-[24px] md:hidden"><svg width="64.1" height="28.76" viewBox="0 0 64.1 28.76">
 										<path d="M2.49,4.74h2.35s53.16,22.65,53.16,22.65c2.91,1.24,5.89-1.6,4.79-4.57l-6.7-18.08h3.67" style="fill: #fff; stroke: #004d47; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.14px;" />
 										<rect width="62.2" height="5.08" style="fill: #fff;" />
 									</svg></div>
 							</div>
-							<div class="text-white leading-normal tracking-normal font-bold vw-text-[36px] mt-12 ml-[7vw] lg:text-[15px] lg:ml-0 lg:mt-4" id="category-intro">
+							<div class="text-white leading-normal tracking-wide font-bold vw-text-[31px] mt-[40px] ml-[3.5vw] lg:text-[15px] lg:ml-0 lg:mt-4" id="category-intro">
 								<p>
 									「 陪伴日常的好夥伴! 」<br>
 									A COMPANION <br>
