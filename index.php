@@ -112,14 +112,14 @@
 				</div>
 			</div>
 
-			<div class="absolute top-[22vh] vw-right-[180] md:top-[124px] md:right-10" data-trigger-fn="cupPon">
+			<div class="absolute top-[22vh] vw-right-[180] md:top-[120px] md:right-[18px]" data-trigger-fn="cupPon">
 				<div class="">
 					<img src="https://gdlinode.tw/oolab/images/is2-circle.svg" class="animate-spin-slow vw-max-w-[174] md:max-w-[88px] md:hidden">
 					<img src="https://gdlinode.tw/oolab/images/is2-circle-mobile.svg" class="animate-spin-slow hidden md:!block">
 				</div>
-				<div class="absolute tf w-full flex items-center justify-center -mt-2 ml-1 md:ml-0">
-					<img src="https://gdlinode.tw/oolab/images/is2-deco-1.png" class="vw-max-w-[42] md:max-w-[22px] md:-rotate-[10deg]">
-					<img src="https://gdlinode.tw/oolab/images/is2-deco-2.png" class="cup-pon vw-max-w-[42] md:max-w-[22px] md:rotate-[10deg]">
+				<div class="absolute tf w-full flex items-center justify-center -mt-2 ml-1 md:ml-0 md:mt-0">
+					<img src="https://gdlinode.tw/oolab/images/is2-deco-1.png" class="vw-max-w-[42] md:max-w-[20px] md:-rotate-[10deg]">
+					<img src="https://gdlinode.tw/oolab/images/is2-deco-2.png" class="cup-pon vw-max-w-[42] md:max-w-[20px] md:rotate-[10deg]">
 				</div>
 			</div>
 		</div>

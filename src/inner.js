@@ -493,7 +493,7 @@ if(location.href == 'https://oolabtwtest.shoplineapp.com/pages/about') {
 	$("#Content .CustomPage .shopline-section").eq(0).addClass("relative");
 
 	var _item_banner = 
-	'<div class="hidden w-full absolute top-[30px] tf-x"><img src="https://gdlinode.tw/oolab/images/about-head-1.svg" class="mx-auto"></div>' +
+	'<div class="hidden w-full absolute top-[36px] tf-x md:!block"><img src="https://gdlinode.tw/oolab/images/about-head-1.svg" class="mx-auto"></div>' +
 	'<div class="hidden md:!block w-full absolute bottom-[30px] tf-x"><img src="https://gdlinode.tw/oolab/images/about-head-2.svg" class="mx-auto"></div>' +
 	'<div class="absolute vw-left-[96] vw-top-[110] md:hidden">' +
 		'<div class="relative inline-block pt-16 pl-16">' +
@@ -915,27 +915,27 @@ if(location.href == 'https://oolabtwtest.shoplineapp.com/pages/all-products') {
 	'<div class="absolute -vw-left-10 vw-top-[166] w-full z-10 md:left-0">' +
 		'<div class="relative inline-block w-full pt-16 pl-16 lg:p-0">' +
 			'<svg class="absolute -top-[48px] -left-[48px] w-[30vw] h-[15vh] md:hidden">' +
-				'<path id="aboutPath" d="M1,48.09v-11.09c0-19.88,16.12-36,36-36h470.57" style="fill: none; stroke: none; stroke-miterlimit: 10; stroke-width: 2px;"/>' +
+				'<path id="aboutPath" d="M1.5,65.27V51.93C1.5,24.08,24.08,1.5,51.93,1.5H397.09" style="fill: none; stroke: #none; stroke-miterlimit: 10; stroke-width: 2px;"/>' +
 				'<text class="fill-green-300 font-bold text-[20px] tracking-normal lg:text-[14px]" style="transform: translate(36px, 38px);">' +
 				'<textPath class="aboutText" href="#aboutPath">' + aboutText + '</textPath>' +
 				'</text>' +
 			'</svg>' +
-			'<div class="head-area absolute top-0 left-0 z-10 md:w-full md:text-center">' +
-				'<div class="relative inline-block bg-white border-3 border-green-300 rounded-[32px] vw-py-8 vw-px-[42px] lg:rounded-[24px] md:bg-transparent md:border-0 md:p-0">' +
-					'<h3 class="font-bold vw-text-[64px] text-green-300 tracking-wide leading-none lg:text-[28px] md:text-white md:text-[40px]" id="category-head">' + titleText + '</h3>' +
-					'<div class="triangle absolute left-[3vw] -bottom-[24px] md:hidden"><svg width="64.1" height="28.76" viewBox="0 0 64.1 28.76">' +
+			'<div class="head-area absolute top-0 left-0 z-10 md:w-full md:text-center md:-top-[14px]">' +
+				'<div class="relative inline-block bg-white border-3 border-green-300 rounded-[50px] vw-py-[46px] vw-px-[62px] lg:rounded-[24px] md:bg-transparent md:border-0 md:p-0">' +
+					'<h3 class="font-bold vw-text-[64px] text-green-300 tracking-wide leading-none lg:text-[28px] md:text-white md:text-[44px] md:tracking-[4px]" id="category-head">' + titleText + '</h3>' +
+					'<div class="triangle absolute left-[5.5vw] -bottom-[24px] md:hidden"><svg width="64.1" height="28.76" viewBox="0 0 64.1 28.76">' +
 						'<path d="M2.49,4.74h2.35s53.16,22.65,53.16,22.65c2.91,1.24,5.89-1.6,4.79-4.57l-6.7-18.08h3.67" style="fill: #fff; stroke: #004d47; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.14px;"/>' +
 						'<rect width="62.2" height="5.08" style="fill: #fff;"/>' +
 					'</svg></div>' +
 				'</div>' +
-				'<div class="text-white leading-normal tracking-wide font-bold vw-text-[31px] mt-[40px] ml-[3.5vw] lg:text-[15px] lg:ml-0 lg:mt-4" id="category-intro">' +
+				'<div class="text-white leading-normal tracking-wide font-bold vw-text-[31px] mt-[40px] ml-[3.5vw] lg:text-[15px] lg:ml-0 lg:mt-4 md:text-[13px] md:tracking-[2px]" id="category-intro">' +
 					'<div class="md:hidden">' + contentHtml + '</div>' +
 					'<div class="hidden md:!block">' + aboutText + '</div>' +
 				'</div>' +
 			'</div>' +
 		'</div>' +
 	'</div>' +
-	'<div class="rotate z-10 absolute -vw-right-6 -vw-top-6 md:hidden"><img src="https://gdlinode.tw/oolab/images/cooperation-rotate-3.svg" class="vw-max-w-[172] animate-spin-slow"></div>' +
+	'<div class="rotate z-10 absolute -vw-right-6 -vw-top-6 md:hidden"><img src="https://gdlinode.tw/oolab/images/cooperation-rotate-5.svg" class="vw-max-w-[172] animate-spin-slow"></div>' +
 	'<div class="absolute tf-x z-10 bottom-[46px] trasition-all duration-500 scroll-item pointer-events-none hidden md:!block">' +
 		'<div class="index-scroll"></div>' +
 		'<div class="font-bold text-lg text-white tracking-wide md:text-[14px]">往下滑動</div>' +

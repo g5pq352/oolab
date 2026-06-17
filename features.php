@@ -610,7 +610,7 @@
 						</svg>
 						<div class="absolute vw-top-[114] -vw-right-[188px] opacity-0 steel-item-3 lg:vw-top-[36] lg:-vw-right-[48] md:top-[126px] md:right-[28px]">
 							<div class="md:hidden"><img src="https://gdlinode.tw/oolab/images/ft-icon-2-3.svg" class="vw-max-w-[192]"></div>
-							<div class="absolute vw-top-[140] left-0 lg:top-[192px] lg:-left-[20px]"><img src="https://gdlinode.tw/oolab/images/ft-text-2-3.svg" class="vw-max-w-[246] md:hidden"><img src="https://gdlinode.tw/oolab/images/ft-deco-3-3-mobile.svg" class="max-w-none hidden md:!block"></div>
+							<div class="absolute vw-top-[140] left-0 lg:top-[192px] lg:-left-[20px] md:top-[36px] md:-left-[12px]"><img src="https://gdlinode.tw/oolab/images/ft-text-2-3.svg" class="vw-max-w-[246] md:hidden"><img src="https://gdlinode.tw/oolab/images/ft-deco-3-3-mobile.svg" class="max-w-none hidden md:!block"></div>
 						</div>
 					</div>
 				</div>

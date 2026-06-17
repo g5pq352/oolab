@@ -1274,6 +1274,9 @@ body:not(.promotions) .product-item:hover product-item:not(.only-wishlist-button
 						font-size: 20px;
 						margin-top: 20px;
 						line-height: 1.5;
+						span{
+							border-bottom: 1px solid #4b4c4e;
+						}
 					}
 					&:after{
 						content: none;
@@ -1785,4 +1788,9 @@ a:focus {
 
 body.lightbox-open {
 	overflow: hidden;
+}
+
+.product-list-slider__products.--using_nav_button .owl-nav{
+	top: 0;
+    margin-top: 0;
 }

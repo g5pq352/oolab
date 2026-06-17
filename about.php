@@ -10,7 +10,7 @@
 <body>
 	<div class="relative bg-[#EDEDED]">
 		<img src="test/about-banner.png">
-		<div class="hidden md:!block w-full absolute top-[30px] tf-x"><img src="https://gdlinode.tw/oolab/images/about-head-1.svg" class="mx-auto"></div>
+		<div class="hidden md:!block w-full absolute top-[36px] tf-x"><img src="https://gdlinode.tw/oolab/images/about-head-1.svg" class="mx-auto"></div>
 		<div class="hidden md:!block w-full absolute bottom-[30px] tf-x"><img src="https://gdlinode.tw/oolab/images/about-head-2.svg" class="mx-auto"></div>
 		<div class="absolute vw-left-[96] vw-top-[110] md:hidden">
 			<div class="relative inline-block pt-16 pl-16">
